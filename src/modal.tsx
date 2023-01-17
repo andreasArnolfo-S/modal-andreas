@@ -23,11 +23,11 @@ export const Modal: React.FC<ModalProps> = ({ isOpen, contentBody, contentTitle,
 
                {isOpen ?
                     <div className="fixed top-0 right-0 left-0 bottom-0 flex justify-center duration-200 ease-in-out bg-base-300">
-                         <div className="modal-box w-11/12 max-w-5xl h-1/3 flex justify-center flex-col">
+                         <div className="modal-box w-11/12 max-w-6xl h-2/3 flex justify-center flex-col">
                               <h3 className="font-bold text-2xl text-center">{contentTitle}</h3>
                               <p className="py-4 text-center">{contentBody}</p>
 
-                              <div className="avatar placeholder justify-center">
+                              <div className="avatar placeholder justify-center mb-15">
                                    <div className="bg-neutral-focus text-neutral-content rounded-full w-16">
                                         <span className="text-xl">JL</span>
                                    </div>

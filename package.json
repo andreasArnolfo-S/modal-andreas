@@ -1,6 +1,6 @@
 {
   "name": "modal-andreas",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "A simple component to show a modal",
   "main": "index.js",
   "scripts": {
