@@ -1,11 +1,12 @@
 {
   "name": "modal-andreas",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "description": "A simple component to show a modal",
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf dist",
-    "build": "yarn clean && tsc && cp package.json README.md ./dist"
+    "build": "yarn clean && tsc && cp package.json README.md ./dist",
+    "start": "react-scripts start"
   },
   "repository": {
     "type": "git",
@@ -22,17 +23,30 @@
   "bugs": {
     "url": "https://github.com/andreasArnolfo-S/modal-andreas/issues"
   },
-  "homepage": "https://github.com/andreasArnolfo-S/modal-andreas#readme",
   "devDependencies": {
     "@types/react": "^17.0.14",
     "@types/react-dom": "^18.0.6",
     "@types/react-transition-group": "^4.4.5",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "tailwindcss": "^3.2.4",
-    "typescript": "^4.3.5"
+    "typescript": "^4.3.5",
+    "web-vitals": "^2.1.2"
   },
   "dependencies": {
-    "daisyui": "^2.46.1"
+    "daisyui": "^2.46.1",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
