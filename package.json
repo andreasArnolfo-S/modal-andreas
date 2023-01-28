@@ -1,6 +1,6 @@
 {
   "name": "modal-andreas",
-  "version": "1.1.4",
+  "version": "1.2.1",
   "description": "A simple component to show a modal",
   "main": "index.js",
   "scripts": {
@@ -35,6 +35,7 @@
   },
   "dependencies": {
     "daisyui": "^2.46.1",
+    "react-code-blocks": "^0.0.9-0",
     "react-scripts": "^5.0.1"
   },
   "browserslist": {
